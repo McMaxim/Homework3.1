@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/brush_sizes"
+        android:title="Кисти">
+        <menu>
+            <item
+                android:id="@+id/brush_big"
+                android:orderInCategory="1"
+                android:title="Большая" />
+            <item
+                android:id="@+id/brush_medium"
+                android:orderInCategory="2"
+                android:title="Средняя" />
+            <item
+                android:id="@+id/brush_small"
+                android:orderInCategory="3"
+                android:title="Маленькая" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/color_variety"
+        android:title="Цвета">
+        <menu>
+            <item
+                android:id="@+id/color_red"
+                android:orderInCategory="1"
+                android:title="Красный" />
+            <item
+                android:id="@+id/color_green"
+                android:orderInCategory="2"
+                android:title="Зелёный" />
+            <item
+                android:id="@+id/color_blue"
+                android:orderInCategory="3"
+                android:title="Синий" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/lastik"
+        android:title="Ластик"
+
+        />
+</menu>
